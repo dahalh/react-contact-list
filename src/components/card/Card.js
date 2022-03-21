@@ -2,7 +2,7 @@ import React from "react";
 import "./card.css";
 
 export const Card = ({ user }) => {
-  console.log(user);
+  // console.log(user);
   return (
     <div className="col-md-6 col-lg-3 py-3">
       <div className="card">

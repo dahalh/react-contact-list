@@ -28,7 +28,7 @@ const App = () => {
   const handleOnGenderChange = (e) => {
     const { value } = e.target;
     setLoading(true);
-    console.log(value);
+    // console.log(value);
     const params = `results=20&gender=${value}`;
     fetchUsers(params).then((data) => {
       setContacts(data.results);
